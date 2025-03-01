@@ -6,11 +6,7 @@
     "dev": "next dev --experimental-https --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build:worker": "opennextjs-cloudflare",
-    "dev:worker": "wrangler dev --port 8771",
-    "preview:worker": "npm run build:worker && npm run dev:worker",
-    "deploy:worker": "npm run build:worker && wrangler deploy"
+    "lint": "next lint"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.2",

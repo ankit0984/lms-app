@@ -75,12 +75,12 @@ export function UserActivityChart() {
           stroke="var(--border)"
         />
         <Tooltip
-          contentStyle={{
-            backgroundColor: "var(--card)",
-            color: "var(--card-foreground)",
-            border: "1px solid var(--border)",
-            borderRadius: "var(--radius-md)",
-          }}
+        // contentStyle={{
+        //   backgroundColor: "var(--card)",
+        //   color: "var(--card-foreground)",
+        //   border: "1px solid var(--border)",
+        //   borderRadius: "var(--radius-md)",
+        // }}
         />
         <Bar
           dataKey="registrations"

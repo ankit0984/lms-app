@@ -7,6 +7,10 @@ import {
   Bot,
   Command,
   GalleryVerticalEnd,
+  GraduationCap,
+  LibraryIcon,
+  LucideCog,
+  LucideCommand,
   Settings2,
   SquareTerminal,
   UserCircleIcon,
@@ -25,6 +29,7 @@ import {
   SidebarRail,
 } from "@/components/ui/sidebar";
 import { DashboardIcon, DashIcon, UpdateIcon } from "@radix-ui/react-icons";
+import { NavMain } from "./nav-main";
 
 // This is sample data.
 const data = {
@@ -52,48 +57,74 @@ const data = {
   ],
   navMain: [
     {
-      title: "Playground",
+      title: "User Management",
       url: "#",
-      icon: SquareTerminal,
+      icon: LucideCog,
       isActive: true,
       items: [
         {
-          title: "History",
-          url: "#",
+          title: "Dashboard",
+          url: "/support/dashboard",
+          icons: DashboardIcon,
         },
         {
-          title: "Starred",
-          url: "#",
+          title: "Users",
+          url: "/support/users",
+          icons: UserCircleIcon,
         },
         {
-          title: "Settings",
-          url: "#",
+          title: "Create User",
+          url: "/support/create-user",
+          icons: UserRoundPlusIcon,
+        },
+        {
+          title: "Remove User",
+          url: "/support/manage-users",
+          icons: UserRoundMinusIcon,
+        },
+        {
+          title: "Update User",
+          url: "/support/modify-password",
+          icons: UpdateIcon,
         },
       ],
     },
     {
-      title: "Models",
+      title: "Course Management",
       url: "#",
-      icon: Bot,
+      icon: LibraryIcon,
       items: [
         {
-          title: "Genesis",
-          url: "#",
+          title: "Dashboard",
+          url: "/support/courseManagement/dashboard",
+          icons: DashboardIcon,
         },
         {
-          title: "Explorer",
-          url: "#",
+          title: "Users",
+          url: "/support/users",
+          icons: UserCircleIcon,
         },
         {
-          title: "Quantum",
+          title: "Create User",
           url: "#",
+          icons: UserRoundPlusIcon,
+        },
+        {
+          title: "Remove User",
+          url: "#",
+          icons: UserRoundMinusIcon,
+        },
+        {
+          title: "Update User",
+          url: "#",
+          icons: UpdateIcon,
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "College Management",
       url: "#",
-      icon: BookOpen,
+      icon: GraduationCap,
       items: [
         {
           title: "Introduction",
@@ -178,7 +209,8 @@ export function AppSidebar({ ...props }) {
         <TeamSwitcher teams={data.teams} />
       </SidebarHeader>
       <SidebarContent>
-        <NavProjects projects={data.projects} />
+        <NavMain items={data.navMain} />
+        {/* <NavProjects projects={data.projects} /> */}
       </SidebarContent>
       <SidebarFooter>
         <NavUser user={data.user} />
