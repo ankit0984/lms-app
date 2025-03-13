@@ -41,9 +41,9 @@ const data = {
 	},
 	teams: [
 		{
-			name: "Acme Inc",
+			name: "e-learning",
 			logo: GalleryVerticalEnd,
-			plan: "Enterprise",
+			plan: "NIET",
 		},
 		{
 			name: "Acme Corp.",
@@ -56,6 +56,7 @@ const data = {
 			plan: "Free",
 		},
 	],
+	Label:"Support Panel",
 	navMain: [
 		{
 			title: "User Management",
@@ -201,7 +202,7 @@ export function AppSidebar({ ...props }) {
 				<TeamSwitcher teams={data.teams} />
 			</SidebarHeader>
 			<SidebarContent>
-				<NavMain items={data.navMain} />
+				<NavMain label={data.Label} items={data.navMain} />
 				{/* <NavProjects projects={data.projects} /> */}
 			</SidebarContent>
 			<SidebarFooter>

@@ -18,10 +18,10 @@ import {
 	SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
 
-export function NavMain({ items }) {
+export function NavMain({ items, label }) {
 	return (
 		<SidebarGroup>
-			<SidebarGroupLabel>Support Panel</SidebarGroupLabel>
+				<SidebarGroupLabel>{label}</SidebarGroupLabel>
 			<SidebarMenu>
 				{items.map((item) => (
 					<Collapsible

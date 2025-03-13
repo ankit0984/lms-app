@@ -6,8 +6,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
-// import CourseList from "../../../../../components/support/courseManagement/Course-list";
-import CourseList from "@/components/support/courseManagement/Course-list";
+import CourseList from "@/components/instructor/courses/Course-list";
 
 export default function Page({ params }) {
 	return (
