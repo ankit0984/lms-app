@@ -5,33 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de03c625-1231-4380-9d8f-b08e844c1443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/[id]/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/grades/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/courses/[id]/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/courses/[id]/students/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/courses/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/create-courses/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/enrollments/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/student-list/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/gemini/assignment/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/gemini/generate/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/assignments/assignment-grades.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/assignments/assignment-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/courses/Course-detail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/courses/Course-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/courses/course-form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/courses/course-student-management.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/courses/student-grades-record.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/enrollment/enrollment-management.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/instructor/students/student-list.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/dashboard/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/app-sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/app-sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/nav-main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/nav-main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/nav-projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/nav-projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/grades/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/grades/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/instructor/courses/student-grades-record.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/instructor/courses/student-grades-record.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +113,7 @@
       <workItem from="1741618338619" duration="2310000" />
       <workItem from="1741877597113" duration="65000" />
       <workItem from="1741877675004" duration="7184000" />
+      <workItem from="1741966587408" duration="1622000" />
     </task>
     <servers />
   </component>

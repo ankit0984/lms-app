@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Input } from "@/components/ui/input"
@@ -61,7 +61,7 @@ const generateMockGrades = () => {
     return grades
 }
 
-export default function StudentGradeRecords() {
+function GradeRecords() {
     const router = useRouter()
     const searchParams = useSearchParams()
     const studentParam = searchParams.get("student")
@@ -409,3 +409,10 @@ export default function StudentGradeRecords() {
     )
 }
 
+export default function StudentGradeRecords(){
+    return (
+        <Suspense fallback={<div className="flex items-center justify-center h-48">Loading...</div>}>
+            <GradeRecords />
+        </Suspense>
+    )
+}
