@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de03c625-1231-4380-9d8f-b08e844c1443" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/announcement/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/calender/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/materials/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/reports/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/settings/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/support/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/announcement/announcement-manager.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/calender/courseCalender.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/report/reports.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/settings/setting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/studymaterial/materialmanager.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/instructor/support/supportCenter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/[id]/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/grades/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/grades/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/instructor/courses/student-grades-record.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/instructor/courses/student-grades-record.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/assignments/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/courses/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/courses/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/create-courses/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/create-courses/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/dashboard/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/dashboard/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(instructor)/instructor/enrollments/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(instructor)/instructor/enrollments/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/gemini/assignment/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/gemini/assignment/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/instructorSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/instructorSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +135,9 @@
       <workItem from="1741618338619" duration="2310000" />
       <workItem from="1741877597113" duration="65000" />
       <workItem from="1741877675004" duration="7184000" />
-      <workItem from="1741966587408" duration="1622000" />
+      <workItem from="1741966587408" duration="4834000" />
+      <workItem from="1742072401488" duration="845000" />
+      <workItem from="1742129955313" duration="3618000" />
     </task>
     <servers />
   </component>

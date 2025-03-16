@@ -7,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import InstructorAssignmentsList from "@/components/instructor/assignments/assignment-list";
-
+export const metadata = {
+    title: "Assignments",
+    description: "Manage assignments",
+}
 export default function Page() {
     return (
         <SidebarInset>

@@ -7,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import AssignmentGrading from "@/components/instructor/assignments/assignment-grades";
-
+export const metadata = {
+    title: "Assignment details",
+    description: "Manage assignment details",
+}
 export default async function Page({ params:paramsPromise }) {
     const params = await paramsPromise
     return (

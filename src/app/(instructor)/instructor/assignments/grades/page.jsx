@@ -1,4 +1,3 @@
-"use client";
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -9,6 +8,11 @@ import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import StudentGradeRecords from "@/components/instructor/courses/student-grades-record";
 
+
+export const metadata = {
+    title: "Gradings & Marks",
+    description: "Assignments marks for student grades",
+}
 export default function Page() {
     return (
         <SidebarInset>

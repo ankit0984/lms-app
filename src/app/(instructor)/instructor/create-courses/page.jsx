@@ -7,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import InstructorCourseForm from "@/components/instructor/courses/course-form";
-
+export const metadata = {
+    title: "Create Course",
+    description: "Create a new course as an instructor",
+}
 export default function Page() {
     return (
         <SidebarInset>

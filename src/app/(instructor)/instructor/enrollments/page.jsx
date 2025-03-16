@@ -7,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import {EnrollmentManagement} from "@/components/instructor/enrollment/enrollment-management";
-
+export const metadata = {
+    title: "Student Enrollment Management",
+    description: "Manage student enrollments across your courses",
+}
 export default function Page() {
     return (
         <SidebarInset>

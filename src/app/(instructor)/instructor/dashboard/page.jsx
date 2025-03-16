@@ -7,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import InstructorDashboard from "@/components/instructor/dashboard/dashboard";
-
+export const metadata = {
+    title: "Dashboard",
+    description: "Instructor's Dashboard",
+}
 export default function Page() {
   return (
       <SidebarInset>

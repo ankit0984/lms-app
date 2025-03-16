@@ -6,7 +6,7 @@ import {
     BarChart3,
     Bell,
     BookOpen,
-    BookPlusIcon,
+    BookPlusIcon, Calendar, CalendarDays, CalendarX2Icon,
     Command,
     FileKey,
     FileQuestion,
@@ -144,26 +144,31 @@ const data = {
     panel:[
         {
             name:"Announcement",
-            url:"#",
+            url:"/instructor/announcement",
             icon:Bell
         },
         {
+            name: "Calender",
+            url: "/instructor/calender",
+            icon: CalendarDays,
+        },
+        {
             name:"Materials",
-            url: "#",
+            url: "/instructor/materials",
             icon:FileUp
         },
         {
             name: "Reports",
-            url: "#",
+            url: "/instructor/reports",
             icon:BarChart3
         },
         {
             name: "settings",
-            url: "#",
+            url: "/instructor/settings",
             icon:Settings2
         },{
             name: "Help & support",
-            url: "#",
+            url: "/instructor/support",
             icon:HelpCircle
         }
     ]

@@ -343,7 +343,7 @@ Your assignment will be evaluated based on the rubric provided, with emphasis on
                     },
                     {
                         criterion: "Documentation",
-                        description: "Quality of code comments, README, and report",
+                        description: "Quality of code comments, README, and reports",
                         points: 10,
                         levels: [
                             { level: "Excellent", description: "Exceptional documentation throughout", points: 10 },
@@ -462,7 +462,7 @@ Your assignment will be evaluated based on the rubric provided, with emphasis on
                     },
                     {
                         criterion: "Visualization & Presentation",
-                        description: "Quality of visualizations and report presentation",
+                        description: "Quality of visualizations and reports presentation",
                         points: 15,
                         levels: [
                             {
@@ -470,7 +470,7 @@ Your assignment will be evaluated based on the rubric provided, with emphasis on
                                 description: "Outstanding visualizations and professional presentation",
                                 points: 15,
                             },
-                            { level: "Good", description: "Clear visualizations and well-presented report", points: 12 },
+                            { level: "Good", description: "Clear visualizations and well-presented reports", points: 12 },
                             { level: "Satisfactory", description: "Adequate visualizations and presentation", points: 9 },
                             { level: "Needs Improvement", description: "Basic visualizations with presentation issues", points: 6 },
                             { level: "Unsatisfactory", description: "Poor or missing visualizations", points: 3 },

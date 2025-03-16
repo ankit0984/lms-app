@@ -1,4 +1,3 @@
-"use client";
 import {
     Breadcrumb,
     BreadcrumbItem,
@@ -8,7 +7,10 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import ReportDashboard from "@/components/instructor/report/reports";
-
+export const metadata = {
+    title: "Reports & Analytics",
+    description: "View detailed reports and analytics for your courses",
+}
 export default function Page() {
     return (
         <SidebarInset>
