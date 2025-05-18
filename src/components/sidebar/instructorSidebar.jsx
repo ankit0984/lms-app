@@ -46,16 +46,6 @@ const data = {
             logo: GalleryVerticalEnd,
             plan: "NIET",
         },
-        {
-            name: "Evil Corp.",
-            logo: Command,
-            plan: "Free",
-        },
-        {
-            name: "Acme Corp.",
-            logo: AudioWaveform,
-            plan: "Startup",
-        },
     ],
     Label:"Instructor Panel",
     navMain: [
