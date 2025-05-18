@@ -115,29 +115,6 @@ const data = {
 			],
 		},
 		{
-			title: "College Management",
-			url: "#",
-			icon: GraduationCap,
-			items: [
-				{
-					title: "Introduction",
-					url: "#",
-				},
-				{
-					title: "Get Started",
-					url: "#",
-				},
-				{
-					title: "Tutorials",
-					url: "#",
-				},
-				{
-					title: "Changelog",
-					url: "#",
-				},
-			],
-		},
-		{
 			title: "Settings",
 			url: "#",
 			icon: Settings2,
