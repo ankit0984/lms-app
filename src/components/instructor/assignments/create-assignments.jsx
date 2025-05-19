@@ -11,7 +11,6 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import FileUploader from "./fileUploader";
-import RichEditor from "./richEditor";
 
 export default function CreateAssignments() {
 	return (
