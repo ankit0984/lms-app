@@ -39,7 +39,7 @@ export default function CreateAssignments() {
 						</CardContent>
 					</Card>
 				</TabsContent>
-				<TabsContent value='Text-Editor'>
+				{/* <TabsContent value='Text-Editor'>
 					<Card>
 						<CardHeader>
 							<CardTitle>Text-Editor</CardTitle>
@@ -51,7 +51,7 @@ export default function CreateAssignments() {
 							<RichEditor />
 						</CardContent>
 					</Card>
-				</TabsContent>
+				</TabsContent> */}
 			</Tabs>
 		</div>
 	);
