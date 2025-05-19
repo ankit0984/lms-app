@@ -79,7 +79,7 @@ const data = {
 			items: [
 				{
 					title: "My Courses",
-					url: "/student/courses",
+					url: "/student/courses/my-courses",
 					icons: BookOpen,
 				},
 				{
