@@ -44,7 +44,7 @@ const mockStudents = Array.from({ length: 25 }, (_, i) => {
         status,
         progress: Math.floor(Math.random() * 101), // 0-100
         lastActive: new Date(Date.now() - Math.floor(Math.random() * 14) * 24 * 60 * 60 * 1000).toISOString(), // Last 14 days
-        courses: Math.floor(Math.random() * 4) + 1, // 1-4 courses
+        courses: Math.floor(Math.random() * 4) + 1, // 1-4 subjects
     }
 })
 

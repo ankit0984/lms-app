@@ -11,7 +11,7 @@ import CourseStudentManagement from "@/components/instructor/courses/course-stud
 //                     <div className="space-y-1">
 //                         <div className="flex items-center gap-4">
 //                             <Button variant="ghost" size="sm" asChild>
-//                                 <Link href={`/courses/${params.id}`}>
+//                                 <Link href={`/subjects/${params.id}`}>
 //                                     <ArrowLeft className="h-4 w-4" />
 //                                     Back to Course
 //                                 </Link>

@@ -83,7 +83,7 @@ const mockInstructors = [
 	"Dr. Robert Wilson",
 ];
 
-// Mock courses for prerequisites
+// Mock subjects for prerequisites
 const mockCourses = [
 	{ code: "CS100", title: "Introduction to Programming" },
 	{ code: "CS200", title: "Data Structures" },

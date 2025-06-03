@@ -30,7 +30,7 @@ const instructorData = {
     unreadMessages: 5,
 }
 
-// Mock courses data
+// Mock subjects data
 const mockCourses = [
     {
         id: "1",

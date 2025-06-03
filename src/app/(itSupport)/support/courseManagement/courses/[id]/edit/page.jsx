@@ -91,7 +91,7 @@ async function getCourse(id) {
 }
 
 export default async function Page({ params: paramsPromise }) {
-	const params = await paramsPromise; // by doing this coz of this error occur in console Error: Route "/support/courseManagement/courses/[id]/edit" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+	const params = await paramsPromise; // by doing this coz of this error occur in console Error: Route "/support/courseManagement/subjects/[id]/edit" used `params.id`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
 	const course = await getCourse(params.id);
 
 	if (!course) {

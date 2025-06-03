@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
 import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
-import CreateAssignments from "../../../../components/instructor/assignments/create-assignments";
+import CreateAssignments from "../../../../../components/instructor/assignments/create-assignments";
 export const metadata = {
 	title: "Create-Assignments",
 	description: "Create assignments",

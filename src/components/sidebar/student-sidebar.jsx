@@ -57,17 +57,66 @@ const data = {
 				{
 					title: "Overview",
 					url: "/student/dashboard",
-					icons: DashboardIcon,
 				},
 				{
 					title: "Grades",
 					url: "/student/dashboard/grades",
-					icons: ListMinus,
 				},
 				{
-					title: "Progress Report",
-					url: "/student/dashboard/reports",
-					icons: BarChart3,
+					title: "Subjects",
+					url: "/student/dashboard/subjects",
+				}
+			],
+		},
+
+		{
+			title: "Assignments",
+			url: "#",
+			icon: ClipboardCheck,
+			isActive: false,
+			items: [
+				{
+					title: "Overview",
+					url: "/student/assignments/overview",
+					icons: FileText,
+				},
+				{
+					title: "Active Assignments",
+					url: "/student/assignments/active-assignments",
+					icons: FileText,
+				},
+				{
+					title: "Submitted Assignments",
+					url: "/student/assignments/submitted-assignments",
+					icons: FileUp,
+				},
+				// {
+				// 	title: "Assignment Grades",
+				// 	url: "/student/assignments/grades",
+				// 	icons: ListMinus,
+				// },
+			],
+		},
+		{
+			title: "Learning",
+			url: "#",
+			icon: BookOpen,
+			isActive: false,
+			items: [
+				{
+					title: "Materials",
+					url: "/student/learning/materials",
+					icons: FileUp,
+				},
+				{
+					title: "DevTube",
+					url: "/student/learning/devtube",
+					icons: VideoIcon,
+				},
+				{
+					title: "Community",
+					url: "/student/learning/community",
+					icons: MessageSquareText,
 				},
 			],
 		},
@@ -91,52 +140,6 @@ const data = {
 					title: "Assigned Courses",
 					url: "/student/courses/assigned",
 					icons: FolderKanban,
-				},
-			],
-		},
-		{
-			title: "Assignments",
-			url: "#",
-			icon: ClipboardCheck,
-			isActive: false,
-			items: [
-				{
-					title: "Active Assignments",
-					url: "/student/assignments/active",
-					icons: FileText,
-				},
-				{
-					title: "Submitted Assignments",
-					url: "/student/assignments/submitted",
-					icons: FileUp,
-				},
-				{
-					title: "Assignment Grades",
-					url: "/student/assignments/grades",
-					icons: ListMinus,
-				},
-			],
-		},
-		{
-			title: "Learning",
-			url: "#",
-			icon: BookOpen,
-			isActive: false,
-			items: [
-				{
-					title: "Materials",
-					url: "/student/learning/materials",
-					icons: FileUp,
-				},
-				{
-					title: "DevTube",
-					url: "/student/learning/devtube",
-					icons: VideoIcon,
-				},
-				{
-					title: "Community",
-					url: "/student/learning/community",
-					icons: MessageSquareText,
 				},
 			],
 		},

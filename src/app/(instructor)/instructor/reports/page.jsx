@@ -9,7 +9,7 @@ import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import ReportDashboard from "@/components/instructor/report/reports";
 export const metadata = {
     title: "Reports & Analytics",
-    description: "View detailed reports and analytics for your courses",
+    description: "View detailed reports and analytics for your subjects",
 }
 export default function Page() {
     return (

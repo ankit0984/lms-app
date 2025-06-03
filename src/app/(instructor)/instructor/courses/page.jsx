@@ -9,7 +9,7 @@ import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import CourseList from "@/components/instructor/courses/Course-list";
 export const metadata = {
 	title: "Course Analytics",
-	description: "View analytics for your courses",
+	description: "View analytics for your subjects",
 }
 
 export default function Page({ params }) {

@@ -86,7 +86,7 @@ const data = {
             items: [
                 {
                     title: "Dashboard",
-                    url: "/support/courseManagement/dashboard",
+                    url: "/instructor/assignments/dashboard",
                     icons: DashboardIcon,
                 },
                 {
@@ -96,7 +96,7 @@ const data = {
                 },
                 {
                     title: "Create Assignments",
-                    url: "/support/userManagement/manage-users",
+                    url: "/instructor/assignments/create-assignment",
                     icons: FileQuestion,
                 },
 

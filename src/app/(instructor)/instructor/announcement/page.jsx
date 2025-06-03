@@ -10,7 +10,7 @@ import StudentGradeRecords from "@/components/instructor/courses/student-grades-
 import AnnouncementManager from "@/components/instructor/announcement/announcement-manager";
 export const metadata= {
     title: "Announcements",
-    description: "Create and manage announcements for your courses",
+    description: "Create and manage announcements for your subjects",
 }
 export default function Page() {
     return (

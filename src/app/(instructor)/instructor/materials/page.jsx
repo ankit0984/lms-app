@@ -9,7 +9,7 @@ import { SidebarInset, SidebarTrigger } from "@/components/ui/sidebar";
 import MaterialsManager from "@/components/instructor/studymaterial/materialmanager";
 export const metadata = {
     title: "Course Materials",
-    description: "Manage learning materials for your courses",
+    description: "Manage learning materials for your subjects",
 }
 export default function Page() {
     return (

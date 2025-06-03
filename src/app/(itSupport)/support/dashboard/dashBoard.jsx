@@ -159,7 +159,7 @@ export default function Dashboard() {
   const activeUsers = mockUsers.filter((user) => !user.suspended).length;
   const suspendedUsers = mockUsers.filter((user) => user.suspended).length;
 
-  // Calculate total courses and enrollments
+  // Calculate total subjects and enrollments
   const totalCourses = mockCourses.length;
   const totalEnrollments = mockCourses.reduce(
     (sum, course) => sum + course.enrollments,

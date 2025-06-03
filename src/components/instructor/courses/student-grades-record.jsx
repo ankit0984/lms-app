@@ -72,7 +72,7 @@ function GradeRecords() {
     const [grades] = useState(generateMockGrades())
     const [activeTab, setActiveTab] = useState("table")
 
-    // Get unique students and courses for filters
+    // Get unique students and subjects for filters
     const uniqueStudents = Array.from(new Set(grades.map((grade) => grade.studentId))).map((id) => {
         const grade = grades.find((g) => g.studentId === id)
         return { id, name: grade?.studentName || "" }

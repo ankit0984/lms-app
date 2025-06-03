@@ -481,7 +481,7 @@ Your assignment will be evaluated based on the rubric provided, with emphasis on
             break
 
         default:
-            // Generic assignment for other courses
+            // Generic assignment for other subjects
             title = `Advanced ${courseName} Research Project`
             description = `# Advanced ${courseName} Research Project
 
